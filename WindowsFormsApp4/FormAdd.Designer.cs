@@ -43,12 +43,12 @@
 			this.buttonAdd = new System.Windows.Forms.Button();
 			this.btChange = new System.Windows.Forms.Button();
 			this.btSearch = new System.Windows.Forms.Button();
-			this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+			this.toolGGW = new System.Windows.Forms.ToolStrip();
 			this.toolName = new System.Windows.Forms.ToolStripLabel();
-			this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+			this.toolSecond = new System.Windows.Forms.ToolStripSeparator();
 			this.toolGroup = new System.Windows.Forms.ToolStripLabel();
 			this.panelMain = new System.Windows.Forms.Panel();
-			this.toolStrip1.SuspendLayout();
+			this.toolGGW.SuspendLayout();
 			this.panelMain.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -195,18 +195,18 @@
 			this.btSearch.UseVisualStyleBackColor = true;
 			this.btSearch.Click += new System.EventHandler(this.btSearch_Click);
 			// 
-			// toolStrip1
+			// toolGGW
 			// 
-			this.toolStrip1.BackColor = System.Drawing.Color.LightGreen;
-			this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+			this.toolGGW.BackColor = System.Drawing.Color.LightGreen;
+			this.toolGGW.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolName,
-            this.toolStripSeparator1,
+            this.toolSecond,
             this.toolGroup});
-			this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-			this.toolStrip1.Name = "toolStrip1";
-			this.toolStrip1.Size = new System.Drawing.Size(336, 25);
-			this.toolStrip1.TabIndex = 20;
-			this.toolStrip1.Text = "toolStrip1";
+			this.toolGGW.Location = new System.Drawing.Point(0, 0);
+			this.toolGGW.Name = "toolGGW";
+			this.toolGGW.Size = new System.Drawing.Size(336, 25);
+			this.toolGGW.TabIndex = 20;
+			this.toolGGW.Text = "toolStrip1";
 			// 
 			// toolName
 			// 
@@ -215,10 +215,10 @@
 			this.toolName.Size = new System.Drawing.Size(83, 22);
 			this.toolName.Text = "Никонов В.Н.";
 			// 
-			// toolStripSeparator1
+			// toolSecond
 			// 
-			this.toolStripSeparator1.Name = "toolStripSeparator1";
-			this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+			this.toolSecond.Name = "toolSecond";
+			this.toolSecond.Size = new System.Drawing.Size(6, 25);
 			// 
 			// toolGroup
 			// 
@@ -256,14 +256,14 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.ClientSize = new System.Drawing.Size(336, 336);
-			this.Controls.Add(this.toolStrip1);
+			this.Controls.Add(this.toolGGW);
 			this.Controls.Add(this.panelMain);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
 			this.Name = "FormAdd";
 			this.ShowIcon = false;
 			this.Text = "Добавление изменение";
-			this.toolStrip1.ResumeLayout(false);
-			this.toolStrip1.PerformLayout();
+			this.toolGGW.ResumeLayout(false);
+			this.toolGGW.PerformLayout();
 			this.panelMain.ResumeLayout(false);
 			this.panelMain.PerformLayout();
 			this.ResumeLayout(false);
@@ -288,9 +288,9 @@
 		private System.Windows.Forms.Button buttonAdd;
 		private System.Windows.Forms.Button btChange;
 		private System.Windows.Forms.Button btSearch;
-		private System.Windows.Forms.ToolStrip toolStrip1;
+		private System.Windows.Forms.ToolStrip toolGGW;
 		private System.Windows.Forms.ToolStripLabel toolName;
-		private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+		private System.Windows.Forms.ToolStripSeparator toolSecond;
 		private System.Windows.Forms.ToolStripLabel toolGroup;
 		private System.Windows.Forms.Panel panelMain;
 	}

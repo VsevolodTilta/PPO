@@ -31,17 +31,17 @@
 			this.OutDisplay = new System.Windows.Forms.DataGridView();
 			this.Add = new System.Windows.Forms.Button();
 			this.textSave = new System.Windows.Forms.Button();
-			this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+			this.openFIlesNow = new System.Windows.Forms.OpenFileDialog();
 			this.BtOpen = new System.Windows.Forms.Button();
-			this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+			this.tooMain = new System.Windows.Forms.ToolStrip();
 			this.toolStripName = new System.Windows.Forms.ToolStripLabel();
-			this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+			this.toolMain = new System.Windows.Forms.ToolStripSeparator();
 			this.toolStripGroup = new System.Windows.Forms.ToolStripLabel();
 			this.Delete = new System.Windows.Forms.Button();
 			this.textDelete = new System.Windows.Forms.TextBox();
 			this.panelMain = new System.Windows.Forms.Panel();
 			((System.ComponentModel.ISupportInitialize)(this.OutDisplay)).BeginInit();
-			this.toolStrip1.SuspendLayout();
+			this.tooMain.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// OutDisplay
@@ -75,9 +75,9 @@
 			this.textSave.UseVisualStyleBackColor = true;
 			this.textSave.Click += new System.EventHandler(this.textSave_Click);
 			// 
-			// openFileDialog1
+			// openFIlesNow
 			// 
-			this.openFileDialog1.FileName = "openFileDialog1";
+			this.openFIlesNow.FileName = "openFileDialog1";
 			// 
 			// BtOpen
 			// 
@@ -89,18 +89,18 @@
 			this.BtOpen.UseVisualStyleBackColor = true;
 			this.BtOpen.Click += new System.EventHandler(this.BtOpen_Click);
 			// 
-			// toolStrip1
+			// tooMain
 			// 
-			this.toolStrip1.BackColor = System.Drawing.Color.LightGreen;
-			this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+			this.tooMain.BackColor = System.Drawing.Color.LightGreen;
+			this.tooMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripName,
-            this.toolStripSeparator1,
+            this.toolMain,
             this.toolStripGroup});
-			this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-			this.toolStrip1.Name = "toolStrip1";
-			this.toolStrip1.Size = new System.Drawing.Size(783, 25);
-			this.toolStrip1.TabIndex = 7;
-			this.toolStrip1.Text = "toolStrip1";
+			this.tooMain.Location = new System.Drawing.Point(0, 0);
+			this.tooMain.Name = "tooMain";
+			this.tooMain.Size = new System.Drawing.Size(783, 25);
+			this.tooMain.TabIndex = 7;
+			this.tooMain.Text = "toolStrip1";
 			// 
 			// toolStripName
 			// 
@@ -109,10 +109,10 @@
 			this.toolStripName.Size = new System.Drawing.Size(83, 22);
 			this.toolStripName.Text = "Никонов В.Н.";
 			// 
-			// toolStripSeparator1
+			// toolMain
 			// 
-			this.toolStripSeparator1.Name = "toolStripSeparator1";
-			this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+			this.toolMain.Name = "toolMain";
+			this.toolMain.Size = new System.Drawing.Size(6, 25);
 			// 
 			// toolStripGroup
 			// 
@@ -159,7 +159,7 @@
 			this.Controls.Add(this.Delete);
 			this.Controls.Add(this.BtOpen);
 			this.Controls.Add(this.OutDisplay);
-			this.Controls.Add(this.toolStrip1);
+			this.Controls.Add(this.tooMain);
 			this.Controls.Add(this.textSave);
 			this.Controls.Add(this.Add);
 			this.Controls.Add(this.panelMain);
@@ -169,8 +169,8 @@
 			this.Text = "Курсовая";
 			this.Load += new System.EventHandler(this.FormMain_Load);
 			((System.ComponentModel.ISupportInitialize)(this.OutDisplay)).EndInit();
-			this.toolStrip1.ResumeLayout(false);
-			this.toolStrip1.PerformLayout();
+			this.tooMain.ResumeLayout(false);
+			this.tooMain.PerformLayout();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -180,11 +180,11 @@
 		private System.Windows.Forms.DataGridView OutDisplay;
 		private System.Windows.Forms.Button Add;
 		private System.Windows.Forms.Button textSave;
-		private System.Windows.Forms.OpenFileDialog openFileDialog1;
+		private System.Windows.Forms.OpenFileDialog openFIlesNow;
 		private System.Windows.Forms.Button BtOpen;
-		private System.Windows.Forms.ToolStrip toolStrip1;
+		private System.Windows.Forms.ToolStrip tooMain;
 		private System.Windows.Forms.ToolStripLabel toolStripName;
-		private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+		private System.Windows.Forms.ToolStripSeparator toolMain;
 		private System.Windows.Forms.ToolStripLabel toolStripGroup;
 		private System.Windows.Forms.Button Delete;
 		private System.Windows.Forms.TextBox textDelete;

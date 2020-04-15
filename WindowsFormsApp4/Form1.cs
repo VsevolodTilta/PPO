@@ -98,7 +98,7 @@ namespace WindowsFormsApp4
 			{
 				kakyoto += x.Index + ";" + x.Name + ";" + x.Country + ";" + x.Strength + ";" + x.Price + ";" + x.Amount + ";" + "\r\n";
 			}
-			File.WriteAllText(openFileDialog1.FileName, kakyoto);
+			File.WriteAllText(openFIlesNow.FileName, kakyoto);
 		}
 
 		private void textDelete_TextChanged(object sender, EventArgs e)
@@ -108,8 +108,8 @@ namespace WindowsFormsApp4
 
 		private void BtOpen_Click(object sender, EventArgs e)
 		{
-			if (openFileDialog1.ShowDialog() == DialogResult.OK)
-			LoadData(openFileDialog1.FileName);																																																																																																																																																																		   
+			if (openFIlesNow.ShowDialog() == DialogResult.OK)
+			LoadData(openFIlesNow.FileName);																																																																																																																																																																		   
 		}
 
 		private void panel1_Paint(object sender, PaintEventArgs e)
